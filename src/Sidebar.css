@@ -1,0 +1,28 @@
+.sidebar {
+    padding: 20px 40px 0 40px;
+    height: fit-content;
+    flex: 0.2;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+}
+
+.sidebar__icon {
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sidebar__tweet {
+    background-color: var(--twitter-colord) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px;
+    margin-top: 20px !important;
+}

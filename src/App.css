@@ -1,0 +1,37 @@
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+        --twitter-color: #50b7f5;
+        --twitter-background: #38444d;
+        --twitter-colord: #ffad1f;
+        --twitter-backgroundd: #2d2f2a;
+        background-color: #15202b !important;
+        color: white;
+    }
+    
+    .app {
+        display: flex;
+        max-width: 1265px;
+        min-width: 1100px;
+        margin: 0 auto;
+    }
+    
+    .track-vertical {
+        background-color: lawngreen;
+    }
+    
+    .MuiAvatar-root {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    
+    .MuiPaper-root {
+        color: rgb(255 255 255) !important;
+        background-color: #1d2a36 !important;
+    }
+    
+    .MuiIconButton-root {
+        color: #fff !important
+    }

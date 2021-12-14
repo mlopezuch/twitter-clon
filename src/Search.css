@@ -1,0 +1,24 @@
+.search{
+    padding:10px;
+    position: relative;
+    color:white !important;   
+    
+}
+
+.search__box{
+    display:flex;
+    padding:5px;
+    flex-direction: row;
+    align-items:center;
+    border-radius:50px;
+    background-color: #253341;
+}
+
+.search__icon{
+    padding-left: 15px;
+}
+
+.search__input{
+    color:white !important;
+    margin-left:15px
+}

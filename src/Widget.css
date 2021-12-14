@@ -1,0 +1,21 @@
+.widget{
+    flex:0.3;
+    position: sticky !important;
+    top:0;
+    height: fit-content !important;
+}
+
+.widget > h2{
+    padding:15px;
+}
+
+.widget__content{
+    position: sticky;
+    margin-left:15px;
+}
+
+.widget__footer{
+    font-size: .8rem;
+    color:#8899a6;
+    text-align: center;
+}

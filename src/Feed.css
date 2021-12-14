@@ -1,0 +1,38 @@
+.feed {
+    flex: 0.5;
+    border-right: 1px solid var(--twitter-background);
+    border-left: 1px solid var(--twitter-background);
+}
+
+.feed__title {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9 !important;
+    background-color: #15202b;
+}
+
+.feed__title>h3 {
+    padding: 15px;
+    border-bottom: 1px solid var(--twitter-background);
+}
+
+.feed__write {
+    height: 140px;
+    border-bottom: 10px solid #253341;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: #ffad1f !important;
+}
+
+.feed__content>.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 66vh;
+}
